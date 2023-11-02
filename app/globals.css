@@ -16,12 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* css global lebih baik digunakan hanya untuk memberi style secara menyeluruh kesemua komponen yang kita punya 
+jadihanya bisa digunakan pada komponen yang sifatnya menyeluruh saja,
+jika kita mau memberi style yang lebih spesifik maka kita bisa membuat file style css module sendiri di dalam folder halaman yang akan kita beri style*/
